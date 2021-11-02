@@ -33,3 +33,6 @@ git add .
 ```bash
 git commit -m "first commit"
 ```
+```bash
+git remote add origin ["github_link"]
+```
