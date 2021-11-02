@@ -33,6 +33,17 @@ git add .
 ```bash
 git commit -m "first commit"
 ```
+used to reproduce the pipeline with dvc(data version control)
+
 ```bash
-git remote add origin ["github_link"]
+dvc repro
+```
+used to show the metrics tracked by dvc
+```bash
+dvc metrics show
+```
+used to check old tracked metric values for the model
+
+```bash
+dvc metrics diff
 ```
