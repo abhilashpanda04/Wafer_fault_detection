@@ -47,3 +47,28 @@ used to check old tracked metric values for the model
 ```bash
 dvc metrics diff
 ```
+tox commands
+
+```bash
+tox
+```
+```bash
+tox -r
+```
+
+pytest command
+
+```bash
+pytest -v
+```
+
+setup commands-
+
+```bash
+pip install -e .
+```
+build your own package commands -
+
+```bash
+python setup.py sdist bdist_wheel
+```
