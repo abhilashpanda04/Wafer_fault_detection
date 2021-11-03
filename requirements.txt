@@ -1,12 +1,11 @@
-#local package install
+# local package install
 -e .
 
-#third party paclages
-
+# third party packages
 dvc
 dvc[gdrive]
 sklearn
-pandas==0.25.3
+pandas
 pytest
 tox
 flake8
