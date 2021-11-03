@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: C:\Users\abhil\OneDrive\Desktop\Desktop\python\mlops
-cmd: 'c:\users\abhil\anaconda3\python.exe' setup.py sdist --formats=zip --dist-dir 'C:\Users\abhil\OneDrive\Desktop\Desktop\python\mlops\.tox\dist'
+cmd: 'c:\users\abhil\anaconda3\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
@@ -35,8 +35,7 @@ copying tests\__init__.py -> src-0.0.0\tests
 copying tests\conftest.py -> src-0.0.0\tests
 copying tests\test_config.py -> src-0.0.0\tests
 Writing src-0.0.0\setup.cfg
-creating C:\Users\abhil\OneDrive\Desktop\Desktop\python\mlops\.tox\dist
-creating 'C:\Users\abhil\OneDrive\Desktop\Desktop\python\mlops\.tox\dist\src-0.0.0.zip' and adding 'src-0.0.0' to it
+creating '.tox\dist\src-0.0.0.zip' and adding 'src-0.0.0' to it
 adding 'src-0.0.0'
 adding 'src-0.0.0\src'
 adding 'src-0.0.0\src.egg-info'
