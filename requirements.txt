@@ -6,7 +6,7 @@
 dvc
 dvc[gdrive]
 sklearn
-pandas
+pandas==0.25.3
 pytest
 tox
 flake8
