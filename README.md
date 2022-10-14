@@ -1,4 +1,5 @@
 Wine Qality Prediction with MLops and Falsk:
+=============================================
 
 The aim of this project is to predict the quality of wine on a scale of 0–10 given a set of features as inputs. 
 
@@ -9,6 +10,8 @@ the next steps will be to automate the entire machine learning pipeline with a f
 the front end will be then build with flask for the end users to use the application
 
 we will also include test cases for checks before deploying the model into production.
+
+==============================================
 
 
 ```bash
